@@ -40,9 +40,15 @@ map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
 
+map <C-n> :cn<CR>
+map <C-p> :cp<CR>
+
 cnoremap %% <C-R>=expand('%:h').'/'<cr>
 map <leader>ew :e %%
 map <leader>es :sp %%
 map <leader>ev :vsp %%
 map <leader>et :tabe %%
 
+nmap <Leader>a= :Tabularize /=<CR>
+nmap <Leader>a{ :Tabularize /{<CR>
+nmap <Leader>a: :Tabularize /:\zs<CR>
