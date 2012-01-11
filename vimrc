@@ -39,6 +39,7 @@ map <C-h> <C-w>h
 map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
+map <C-e> :MRU<CR>
 
 map <C-n> :cn<CR>
 map <C-p> :cp<CR>
